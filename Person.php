@@ -1,12 +1,12 @@
    class Person
 {
-    private $_foto_url = NULL;
-    private $_name = NULL;
-    private $_year = NULL;
-    private $_month = NULL;
-    private $_day = NULL;
-    private $_alias = NULL;
-    private $_current_career_clubs = NULL;
+    private $_foto_url;
+    private $_name;
+    private $_year;
+    private $_month;
+    private $_day;
+    private $_alias;
+    private $_current_career_clubs;
 
     public function getFoto()
     {
