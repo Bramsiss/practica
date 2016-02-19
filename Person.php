@@ -1,19 +1,3 @@
-    class Club
-{
-    private $_logo = NULL;
-    
-    
-    public function getLogo()
-    {
-        return $this->_logo;
-    }
-    public function setLogo($logo)
-    {
-        $this->_logo = $logo;
-    }
-}
-
-
    class Person
 {
     private $_foto_url = NULL;
@@ -53,13 +37,34 @@
         return $this->_current_career_clubs;
     }
     
-        "foto_url":"/public/user/13/78/0a/a63a5_7dec.jpg",
-        "name":"Иванов Иван",
-        "born":{
-            "year":1982,
-            "month":2,
-            "day":7,
-        },
-        "alias":171410544,
-        "current_career_clubs":[2065290689,4193333717]
-    },
+
+    public function setFoto($foto)
+    {
+        $this->_foto = $foto;
+    }
+    public function setName($name)
+    {
+        $this->_name = $name;
+    }
+    public function setYear($year)
+    {
+        $this->_year = $year;
+    }
+    public function setMonth($month)
+    {
+        $this->_month = $month;
+    }
+    public function setDay($day)
+    {
+        $this->_day = $day;
+    }
+    public function setAlias($alias)
+    {
+        $this->_alias = $alias;
+    }    
+    public function setCurrentCareerClubs()
+    {
+       $this->_current_career_clubs = $current_career_clubs;
+    }
+    
+}
