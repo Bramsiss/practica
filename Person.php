@@ -1,5 +1,8 @@
  <?php  class Person
 {
+
+    //Запрос данных об игроке
+    
     private $_foto_url;
     private $_name;
     private $_year;

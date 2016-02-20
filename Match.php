@@ -1,5 +1,8 @@
 <? php class Match
 {
+
+    //Запрос данных о матче
+    
 	championship
 	seasons
 	tour

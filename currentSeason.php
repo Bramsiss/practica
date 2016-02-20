@@ -1,6 +1,8 @@
-<? php class current_season extends Season
+<? php class current_season 
 {
-   /* private $_identity;
+    //Запрос данных турнира по идентификатору сезона (текущий_сезон)
+
+    private $_identity;
     private $_title;
     private $_href;
     private $_championship_id;
@@ -65,6 +67,6 @@
     {
         $this->_logo = $logo;
     }
-    */
+    
 }
 ?>

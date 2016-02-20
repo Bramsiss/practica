@@ -1,7 +1,6 @@
-<? php class Association extends current_season
+<? php class Championship
 {
-    
-//Запрос турниров ассоциаций
+    //Запрос данных турнира по идентификатору чемпионата/сезона
 
 	private $_identity;
 	private $_href;
@@ -9,10 +8,6 @@
  	private $_logo;
     private $_state;
     private $_city;
-    private $_sport_id;
-    private $_type_id;
-
-
    
 
     public function getIdentity()
@@ -39,14 +34,6 @@
     {
         return $this->_city;
     }
-    public function getSportId()
-    {
-        return $this->_sport_id;
-    }
-    public function getTypeId()
-    {
-        return $this->_type_id;
-    }        
 
 
     public function setIndetity($indetity)
@@ -72,14 +59,6 @@
     public function setCity($city)
     {
         $this->_city = $city;
-    }
-    public function getSportId($sport_id)
-    {
-        $this->_sport_id = $sport_id;
-    }
-    public function getTypeId($type_id)
-    {
-        $this->_type_id = $type_id;
     }
 
 }

@@ -1,5 +1,8 @@
   <?php  class Team 
   {
+
+    //Запрос данных о команде
+
   	private $_logo;
   	private $_title;
   	private $_id;
@@ -7,7 +10,7 @@
   	private $_rate;
   	private $_city;
   	private $_href;
-  	private $_self; //(Это надо?)
+  	private $_self; 
 
   	public function getLogo()
     {

@@ -1,6 +1,9 @@
 
 <?php class playerStatistics
 {
+
+    //Запрос детальных статистических данных об игроке
+    
     champ
     season
     private $_club;

@@ -1,5 +1,7 @@
 <? php class Season
 {
+    //Запрос данных турнира по идентификатору чемпионата/сезона (сезон)
+
     private $_identity;
     private $_title;
     private $_href;
