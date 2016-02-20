@@ -9,6 +9,7 @@
     private $_start_date;
     private $_end_date;
     private $_logo;
+    private $_building;
 
     public function getIdentity()
     {
@@ -38,6 +39,11 @@
     {
         return $this->_logo;
     }
+    public function getBuilding()
+    {
+        return $this->_building()
+    }
+
 
     public function setIndetity($indetity)
     {
@@ -66,6 +72,10 @@
     public function setLogo($logo)
     {
         $this->_logo = $logo;
+    }
+    public function setBuilding($building)
+    {
+        $this->building = $building;
     }
     
 }
