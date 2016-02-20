@@ -1,0 +1,5 @@
+<?class userTeams extends Team
+{
+
+}
+?>

@@ -1,4 +1,4 @@
-   class Person
+ <?php  class Person
 {
     private $_foto_url;
     private $_name;
@@ -68,3 +68,5 @@
     }
     
 }
+
+?>
